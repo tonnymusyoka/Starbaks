@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "784968322432",
-    "firebase_url": "https://starbaks-62043.firebaseio.com",
-    "project_id": "starbaks-62043",
-    "storage_bucket": "starbaks-62043.appspot.com"
+    "project_number": "341639963412",
+    "firebase_url": "https://starbaks-70a02.firebaseio.com",
+    "project_id": "starbaks-70a02",
+    "storage_bucket": "starbaks-70a02.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:784968322432:android:3c2109e9ebc4fecd694565",
+        "mobilesdk_app_id": "1:341639963412:android:ebc65311e0129956951801",
         "android_client_info": {
           "package_name": "tony.com.starbaks"
         }
       },
       "oauth_client": [
         {
-          "client_id": "784968322432-c5d6uqqh26vu9mit3qrnn86l093d351q.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "tony.com.starbaks",
-            "certificate_hash": "8b0f110b1c1f186b0097fbe494ee248b19af8829"
-          }
-        },
-        {
-          "client_id": "784968322432-efnvhpaenvtlotkhpqv28ngk04b3ff08.apps.googleusercontent.com",
+          "client_id": "341639963412-6pifrhehq060h8hf7i0pir43psg4u8tv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5NqW5j2knA_7KEdh1UhdAbTVdAKhc9Vw"
+          "current_key": "AIzaSyCokUELyh3O0b61V09FFvJqA4nxlEovzmY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "784968322432-efnvhpaenvtlotkhpqv28ngk04b3ff08.apps.googleusercontent.com",
+              "client_id": "341639963412-6pifrhehq060h8hf7i0pir43psg4u8tv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Starbaks</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="back">BACK</string>
+    <string name="famous_logo">Famous Logo</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="login">Login</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="password">Password</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="signup_logo">signup_logo</string>
 </resources>

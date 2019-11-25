@@ -80,7 +80,7 @@ public class SignupActivity extends AppCompatActivity {
 
         String email = _emailText.getText().toString();
         String reEnterPassword = _reEnterPasswordText.getText().toString();
-        
+
         //create user
         auth.createUserWithEmailAndPassword(email, reEnterPassword)
                 .addOnCompleteListener(SignupActivity.this, new OnCompleteListener<AuthResult>() {
@@ -94,12 +94,14 @@ public class SignupActivity extends AppCompatActivity {
                         if (!task.isSuccessful()) {
                             Toast.makeText(SignupActivity.this, "Authentication failed." + task.getException(),
                                     Toast.LENGTH_SHORT).show();
+                            _signUpButton.setEnabled(true);
                         } else {
                             startActivity(new Intent(SignupActivity.this, MainActivity.class));
                             finish();
                         }
                     }
                 });
+
     }
 
 
@@ -111,7 +113,6 @@ public class SignupActivity extends AppCompatActivity {
 
     public void onSignupFailed() {
         Toast.makeText(getBaseContext(), "Login failed", Toast.LENGTH_LONG).show();
-
         _signUpButton.setEnabled(true);
     }
 
